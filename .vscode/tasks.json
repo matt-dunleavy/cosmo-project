@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "build-cosmo",
+            "type": "shell",
+            "command": "make TOOLCHAIN=cosmo",
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "build-clang",
+            "type": "shell",
+            "command": "make TOOLCHAIN=clang",
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "make run",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "setup-cosmo",
+            "type": "shell",
+            "command": "make setup-cosmo",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

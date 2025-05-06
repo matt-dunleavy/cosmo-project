@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [80],
+    "files.associations": {
+        "*.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.cStandard": "c23",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+
+    // Set configuration by placing a .cosmo file in the project root
+    // If there's a .cosmo file, use Cosmopolitan settings
+    "C_Cpp.autoAddFileAssociations": false,
+
+    // Optional: Add Cosmopolitan-specific settings using a script
+    // "C_Cpp.default.compilerPath": "${workspaceFolder}/tools/cosmocc",
+    // "C_Cpp.default.includePath": [
+    //    "${workspaceFolder}/include",
+    //    "${workspaceFolder}/tools/cosmocc/include"
+    // ],
+}

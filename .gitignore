@@ -1,0 +1,112 @@
+# Editor backups / Temporary files
+*~
+*#
+.#*
+*.swp
+*.swo
+
+# IDE / Tooling specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.clangd/
+.ccls-cache/
+.gdb_history
+/.cosmocc
+/TAGS
+/HTAGS
+/cosmocc
+
+# OS-specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Build output directories
+/build/
+/bin/
+/dist/
+/o/ # Common directory for Cosmopolitan Libc builds
+/o
+
+# Compiled Objects / Libraries
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.gch # Precompiled headers (GCC)
+*.pch # Precompiled headers (Clang/MSVC)
+
+# Executables
+*.exe
+*.out
+*.com # Actually Portable Executable (Cosmopolitan)
+*.test # Common suffix for test executables
+*.app # macOS application bundles
+
+# Build System / Debugging Files
+*.d # Auto-generated dependency files (Make/Ninja)
+*.log
+/*.log
+*.map # Linker map files
+/perf.data
+/perf.data.old
+/trace.json
+
+# Test data
+testdata/
+
+# Dependencies (e.g., submodules, downloaded libs)
+vendor/
+
+# Archives / Binary Files
+*.tar
+*.gz
+*.zip # APE executables are also zip files
+*.rar
+*.7z
+*.bin
+
+# Temporary files/directories
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Environment configuration
+.env
+.env.*
+!.env.example
+
+#Documentation Drafts
+docs/draft/
+
+#Documentation Build Output
+# Documentation build output (Uncomment if you generate docs)
+# /docs/html/
+# /docs/latex/
+
+# Generic Caches
+.cache/
+cache/
+
+# Private files
+.private/
+private/

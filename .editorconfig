@@ -1,0 +1,28 @@
+# Top-most EditorConfig file
+root = true
+
+# Common settings for all files
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+# Make files use tabs
+[Makefile]
+indent_style = tab
+
+# C source files
+[*.{c,h}]
+# For gcc/clang
+indent_size = 4
+
+# Cosmopolitan-specific settings
+# Can be enabled by creating a .cosmo file in the project
+[*.{c,h}]
+cpp_include_path = include
+cpp_standard = c23
+
+# VS Code/IDE-specific configurations are better placed in their respective config files

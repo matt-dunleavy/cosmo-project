@@ -1,0 +1,16 @@
+{
+    "languageserver": {
+        "c": {
+            "command": "clangd",
+            "filetypes": ["c"],
+            "rootPatterns": ["compile_commands.json", ".git/"],
+            "initializationOptions": {
+                "fallbackFlags": ["-std=c23"]
+            }
+        }
+    },
+    "clangd.path": "clangd",
+    "clangd.arguments": ["--background-index", "--clang-tidy"],
+
+    "workspace.rootPatterns": [".git", "Makefile"]
+}
