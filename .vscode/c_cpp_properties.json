@@ -1,0 +1,125 @@
+{
+    "configurations": [
+        {
+            "name": "GCC-Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c23",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "GCC-Mac",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/gcc",
+            "cStandard": "c23",
+            "intelliSenseMode": "macos-gcc-x64"
+        },
+        {
+            "name": "GCC-Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "cStandard": "c23",
+            "intelliSenseMode": "windows-gcc-x86"
+        },
+        {
+            "name": "Clang-Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c23",
+            "intelliSenseMode": "linux-clang-x64"
+        },
+        {
+            "name": "Clang-Mac",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c23",
+            "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "Clang-Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [],
+            "compilerPath": "C:/Program Files/LLVM/bin/clang.exe",
+            "cStandard": "c23",
+            "intelliSenseMode": "windows-clang-x86"
+        },
+        {
+            "name": "Cosmopolitan-Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**",
+                "${workspaceFolder}/tools/cosmocc/include"
+            ],
+            "defines": [],
+            "compilerPath": "${workspaceFolder}/tools/cosmocc",
+            "cStandard": "c23",
+            "intelliSenseMode": "linux-clang-x64"
+        },
+        {
+            "name": "Cosmopolitan-Mac",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**",
+                "${workspaceFolder}/tools/cosmocc/include"
+            ],
+            "defines": [],
+            "compilerPath": "${workspaceFolder}/tools/cosmocc",
+            "cStandard": "c23",
+            "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "Cosmopolitan-Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/test/**",
+                "${workspaceFolder}/tools/cosmocc/include"
+            ],
+            "defines": [],
+            "compilerPath": "${workspaceFolder}/tools/cosmocc",
+            "cStandard": "c23",
+            "intelliSenseMode": "windows-clang-x86"
+        }
+    ],
+    "version": 4
+}
